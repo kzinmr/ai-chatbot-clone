@@ -4,7 +4,6 @@ import { ExternalLink } from "@/components/external-link";
 import { Button } from "@/components/ui/button";
 import { IconArrowRight } from "@/components/ui/icons";
 
-
 const exampleMessages = [
   {
     heading: "Explain technical concepts",
@@ -28,8 +27,8 @@ export function EmptyScreen({ setInput }: Pick<UseChatHelpers, "setInput">) {
           Welcome to Next.js AI Chatbot!
         </h1>
         <p className="mb-2 leading-normal text-muted-foreground">
-          This is an open source AI chatbot app template built with{' '}
-          <ExternalLink href="https://nextjs.org">Next.js</ExternalLink> and{' '}
+          This is an open source AI chatbot app template built with{" "}
+          <ExternalLink href="https://nextjs.org">Next.js</ExternalLink> and{" "}
           <ExternalLink href="https://vercel.com/storage/kv">
             Vercel KV
           </ExternalLink>

@@ -21,7 +21,7 @@ export const options: NextAuthOptions = {
       return token;
     },
     session: ({ session, token }) => {
-    //   console.log("in session", { session, token });
+      //   console.log("in session", { session, token });
       return {
         ...session,
         user: {

@@ -13,7 +13,6 @@ import { ClearHistory } from "@/components/clear-history";
 import { ThemeToggle } from "@/components/theme-toggle";
 import { UserMenu } from "@/components/user-menu";
 
-
 export async function Header() {
   const session = await getServerSession(options);
   const userId = session?.user?.id;

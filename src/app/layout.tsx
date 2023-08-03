@@ -33,7 +33,7 @@ interface RootLayoutProps {
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <head/>
+      <head />
       <body
         className={cn(
           "font-sans antialiased",
